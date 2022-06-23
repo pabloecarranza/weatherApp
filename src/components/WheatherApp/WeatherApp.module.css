@@ -1,0 +1,88 @@
+.LaunchPanel {
+ /*  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  background: rgba( 255, 255, 255, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91%;
+  width: 75%;
+  margin-top: 6%;
+  z-index: 1;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+.menuOption {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  padding-bottom: 3px;
+}
+
+
+.menuOption > :nth-child(1) {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(193, 1, 1);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.menuOption >:nth-child(1):hover {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(255, 1, 1);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+.menuOption > :nth-child(2) {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(255, 221, 0);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: none;
+  filter: opacity(30%);
+}
+.menuOption > :nth-child(3) {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(27, 164, 0);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: none;
+  filter: opacity(30%);
+}
+
+.textArea {
+  
+  width: 100%;
+  height: 161%;
+  display: flex;
+
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+
+  flex-direction: column;
+  align-content: flex-start;
+}

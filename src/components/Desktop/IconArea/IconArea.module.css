@@ -1,0 +1,43 @@
+.fullArea {
+  position: absolute;
+  height: 75vh;
+    width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+flex-direction: column;
+
+}
+
+.weatherIcon{
+    margin-left: 1%;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 9%;
+    height: 30%;
+    color: white;
+    filter: opacity(80%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.weatherIcon:hover{
+    filter: opacity(100%);
+    
+}
+
+.fullArea img{
+  width: 86%;
+
+}
+
+@media only screen and (max-width: 390px)  {
+  
+  
+
+}

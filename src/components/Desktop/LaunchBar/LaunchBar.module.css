@@ -1,0 +1,86 @@
+.fullArea {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  
+}
+.AllZone {
+  background: none;
+  border: none;
+  filter: opacity(70%);
+  transition: all .3s ease-in-out;
+}
+.AllZone>:nth-child(1){
+  filter: opacity(0%);
+  transition: all .3s ease-in-out;
+}
+.AllZone:hover {
+  background: none;
+  border: none;
+  filter: opacity(100%);
+  
+}
+
+.AllZone:hover>:nth-child(1){
+  display: block;
+  filter: opacity(100%);
+  transition: all 3.3s ease-in-out;
+}
+
+.LaunchBar {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 43vw;
+  height: 10vh;
+  padding: 4px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.LaunchBar img {
+  width: 11%;
+}
+
+.wheather {
+  background-image: url(../../../assets/Weather.png);
+  background-position: center;
+  background-size: contain;
+  width: 10vw;
+  height: 10vh;
+}
+
+.tolTip {
+  transition: all .3s ease-in-out;
+  border: none;
+   position: absolute;
+   left: 35%;
+   top: -41%;
+  z-index: 1;
+  background-color: rgb(170, 3, 3);
+  border-radius: 30px 30px 30px 0px;
+  width: 68%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.tolTip:hover{
+  background-color: rgb(255, 8, 8);
+  
+}
+
+@media only screen and (max-width: 390px)  {
+  .fullArea{
+    display: none;
+  }
+  
+
+}

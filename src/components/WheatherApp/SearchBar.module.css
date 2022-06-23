@@ -1,0 +1,75 @@
+.SearchBar {
+  height: 11%;
+  width: 100%;
+  background-color: RGB(36,40,49);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px 0px 10px;
+}
+
+.title > :nth-child(1) {
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  color: aliceblue;
+}
+
+.Find{
+  font-family: "Roboto", sans-serif;
+  border: 1px solid rgb(72, 78, 94);
+  border-radius: 3px;
+}
+.Find>:nth-child(1){
+  text-transform: capitalize;
+  font-size: 14px;
+  background-color: RGB(36,40,49);
+  color: aliceblue;
+}
+
+
+
+
+.buttonx {
+  font-size: 12px;
+  color: #969696;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.buttonx:focus,
+.buttonx:hover {
+  color: #fff;
+}
+
+.buttonx:focus:after,
+.buttonx:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.buttonx:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}

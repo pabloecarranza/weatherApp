@@ -1,0 +1,42 @@
+.topBar {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 6vh;
+  
+    display: flex;
+    
+}
+.OptionBar{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.OptionBar img{
+    padding-left: 10px;
+    width: 20px;
+}
+
+.DateBar{
+      
+    font-family: 'Roboto', sans-serif;
+      color: white;
+      justify-content: flex-end;
+      padding-right: 10px;
+      display: flex;
+      align-items: center;
+  
+      width: 55%;
+  }
+  
+  .DateBar img{
+      width: 30px;
+      height: 20px;
+  }

@@ -1,0 +1,150 @@
+.PrimaryCity {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: RGB(36, 40, 49);
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.primaryDates {
+  position: absolute;
+  width: 26%;
+  height: 80%;
+ 
+  box-shadow: rgb(0, 0, 0) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 24px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.RenderDates {
+  color: white;
+  height: 100%;
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  align-items: flex-start;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+}
+.supDates {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supDates > :nth-child(1) {
+  font-size: 2.4rem;
+}
+.supDates > :nth-child(2) {
+  font-size: 2rem;
+}
+.supDates > :nth-child(3) {
+  font-size: 1rem;
+}
+
+.bottonDates {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottonDates img{
+  width: 30%;
+}
+.bottonDates>:nth-child(2){
+  font-size: 1rem;
+
+}
+
+.primaryDates img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  filter: blur(2px) brightness(90%) opacity(60%);
+
+  z-index: 1;
+}
+
+.extendsWeather {
+
+  width: 100%;
+  height: 89%;
+  
+  box-shadow: -33px 49px 50px -30px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: -33px 49px 50px -30px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: -33px 49px 50px -30px rgba(0,0,0,0.75) inset;
+  border-radius: 0px 10px 20px 0px;
+  
+  background-color: rgb(26, 29, 36);
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+.ExtendsDates {
+  font-family: "Roboto", sans-serif;
+  
+  color: rgb(149, 153, 157);
+  font-size: 1.3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1%;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  justify-content: space-around;
+}
+
+.auxOne{
+  display: flex;
+  flex-direction: column;
+}
+.auxTwo{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.ExtendsNextDays {
+  color: aliceblue;
+  background-color: rgb(32, 36, 44);
+  box-shadow: rgb(6, 9, 11) 0px 20px 30px -10px;
+  border-radius: 17px;
+  width: 93%;
+  height: 50%;
+  margin-bottom: 3%;
+
+}
+.ExtendsNextDays img{
+  width: 10%;
+}
+
+.miniCard{
+  color: aliceblues;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 32%;
+}

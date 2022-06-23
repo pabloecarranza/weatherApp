@@ -1,0 +1,103 @@
+.LaunchPanel {
+  background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 60%;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+.menuOption {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  padding-bottom: 3px;
+  
+}
+
+.topBorder {
+  background-color: RGB(251, 185, 73);
+
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 3;
+}
+.menuOption > :nth-child(1) {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(193, 1, 1);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.menuOption >:nth-child(1):hover {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(255, 1, 1);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.menuOption > :nth-child(2) {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(255, 221, 0);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: none;
+  filter: opacity(30%);
+}
+.menuOption > :nth-child(3) {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(27, 164, 0);
+  border-radius: 100%;
+  margin-left: 10px;
+  border: none;
+  filter: opacity(30%);
+}
+
+.textArea {
+  background-color: rgb(247, 245, 245);
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+}
+.text {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+.text > :nth-child(1) {
+  padding-bottom: 20px;
+}
+.text > :nth-child(2) {
+  padding-bottom: 20px;
+}
