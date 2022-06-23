@@ -37,7 +37,7 @@ function WelcomeNote({ show, setShow }) {
             <span>
               La Siguiente aplicacion es para la consulta de clima en la que se pueda
               visualizar el pronóstico actual y el de los próximos 5 dias de la cuidad
-              en la que se encuentre, y a su vez un selector que permita cambiar entre 
+              en la que se encuentre mediante geolocalización, y a su vez un selector que permita cambiar entre 
               5 cuidades preseleccionadas y un buscador de cuidades.
             </span>
           </div>
