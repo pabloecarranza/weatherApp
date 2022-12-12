@@ -15,7 +15,7 @@ function LaunchBar() {
     <div className={Styles.fullArea}>
       <div className={Styles.AllZone}>
       <button className={Styles.tolTip}>
-        Contenido disponible
+        Contenido no disponible
       </button>
         <div className={Styles.LaunchBar}>
           <img src={Calc} alt="" />
